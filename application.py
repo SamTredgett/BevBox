@@ -41,4 +41,3 @@ def add_drink():
     db.session.commit()
     return {'id':drink.id}
 
-
